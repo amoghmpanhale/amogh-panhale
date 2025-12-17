@@ -38,7 +38,7 @@ img {
     z-index: 3;
     right: 0;
     top: 0;
-    background-color: rgba(0,0,0, 0.9);
+    background-color: #E8F1F2;
     overflow: hidden;
     transition: 0.3s;
 }
@@ -88,8 +88,9 @@ img {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    color: white;
-}
+    text-align: center;
+    color: #E8F1F2;
+    }
 
 #home-container h1 {
     font-size: 4em;
