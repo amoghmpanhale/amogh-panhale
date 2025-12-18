@@ -58,7 +58,7 @@ img {
 }
 
 .overlay a:hover {
-    color: #f1f1f1;
+    color: #001A23;
 }
 
 .overlay .closebtn {
@@ -154,5 +154,35 @@ img {
     }
     99%, 100% {
         opacity: 0;
+    }
+}
+
+.about {
+    background-color: #001A23;
+}
+
+.about-content h1 {
+    overflow: auto;
+    color: #E8F1F2;
+}
+
+.about-content p {
+    color: #E8F1F2;
+}
+
+.about-content img {
+    float: right;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    max-width: 30%;
+}
+
+@media (max-width: 768px) {
+    .about-content img {
+        max-width: 100%;
+        float: none;
+        display: block;
+        margin: 0 auto 20px auto;
     }
 }
