@@ -94,13 +94,58 @@ img {
     }
 
 #home-container h1 {
-    font-size: 4em;
+    font-size: 6em;
     margin: 0;
     border: none;
     z-index: 1;
 }
 
 #home-container p {
-    font-size: 1.5em;
+    font-size: 2.5em;
     z-index: 1;
+    margin-top: -0.5em;
+}
+
+#home-container p span::before {
+    content: "coding";
+    animation: animate infinite 10s;
+    padding-left: 10px;
+}
+
+@keyframes animate {
+    0%, 18% {
+        content: "AI Engineer";
+        opacity: 1;
+    }
+    19%, 20% {
+        opacity: 0;
+    }
+    20%, 38% {
+        content: "Cyclist";
+        opacity: 1;
+    }
+    39%, 40% {
+        opacity: 0;
+    }
+    40%, 58% {
+        content: "Software Developer";
+        opacity: 1;
+    }
+    59%, 60% {
+        opacity: 0;
+    }
+    60%, 78% {
+        content: "Photographer";
+        opacity: 1;
+    }
+    79%, 80% {
+        opacity: 0;
+    }
+    80%, 98% {
+        content: "Data Scientist";
+        opacity: 1;
+    }
+    99%, 100% {
+        opacity: 0;
+    }
 }
