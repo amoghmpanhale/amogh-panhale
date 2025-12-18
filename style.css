@@ -102,7 +102,7 @@ img {
 
 @media (max-width: 768px) {
     #home-container h1 {
-        font-size: 3em;  /* Smaller size for mobile */
+        font-size: 1em;  /* Smaller size for mobile */
     }
 }
 
