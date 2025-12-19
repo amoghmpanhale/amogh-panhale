@@ -186,3 +186,25 @@ img {
         margin: 0 auto 20px auto;
     }
 }
+
+.research {
+    background-color: #001A23;
+}
+
+.research-content h1 {
+    overflow: auto;
+    color: #E8F1F2;
+}
+
+.research-content h3 {
+    overflow: auto;
+    color: #E8F1F2;
+}
+
+.research-content h2 {
+    overflow: auto;
+    color: #E8F1F2;
+}
+.research-content p {
+    color: #E8F1F2;
+}
