@@ -205,6 +205,43 @@ img {
     overflow: auto;
     color: #E8F1F2;
 }
+
 .research-content p {
     color: #E8F1F2;
+}
+
+.topic-header {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    padding: 10px 0;
+    color: #E8F1F2;
+}
+
+.topic-header h2 {
+    margin: 0;
+    display: inline;
+}
+
+.topic-header .arrow {
+    margin-right: 10px;
+    font-size: 0.8em;
+}
+
+.topic-dropdown {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+    padding-left: 30px;
+}
+
+.topic-dropdown a {
+    display: block;
+    padding: 8px 0;
+    color: #E8F1F2;
+    text-decoration: none;
+}
+
+.topic-dropdown a:hover {
+    text-decoration: underline;
 }
